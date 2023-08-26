@@ -9,7 +9,19 @@ void main() {
 
 class SuperligApp extends StatelessWidget {
   const SuperligApp({Key? key}) : super(key: key);
-
+//dfgdfghdg
+//dfgdfghdg
+//dfgdfghdg
+//dfgdfghdg
+//dfgdfghdg
+override
+  Widget build(BuildContext context) {
+    return MultiProvider(
+        providers: [
+          ChangeNotifierProvider(
+            create: (context) => AppState(),
+          ) //merhbaba
+        ],
   @override
   Widget build(BuildContext context) {
     return MultiProvider(
