@@ -16,7 +16,7 @@ class SuperligApp extends StatelessWidget {
         providers: [
           ChangeNotifierProvider(
             create: (context) => AppState(),
-          )
+          ) //merhbaba
         ],
         child: MaterialApp(
           title: "Süper Lig App",
